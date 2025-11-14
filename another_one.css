@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../Roboto-Regular.ttf');
+}
+
+body {
+  font-family: 'Roboto';
+  background: url('../images/designer_1.png') no-repeat top right;
+}
+
+.wrapper {
+  width: 1100px;
+  margin:0 auto;
+}
+
+header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+header nav ul {
+  display: flex;
+  gap: 60px;
+  list-style: none;
+  margin:0;
+}
+
+nav a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #505F98;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.styled-button {
+  padding: 6px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.filled-button {
+  background: #111B47;
+  color: white;
+  width: 160px;
+  font-size: 12px;
+}
+
+.brand-title {
+  margin-top: 240px;
+  max-width: 540px;
+}
+
+.brand-title h1 {
+  font-size: 50px;
+}
+
+.brand-title p {
+  color: #505F98;
+  font-size: 18px;
+}
+
+.styled-button--modified {
+  font-size: 16px;
+  width: 190px;
+}
+
+.brand-title .buttons-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.empty-button {
+  color: #091133;
+  border: 2px solid #091133;
+}
